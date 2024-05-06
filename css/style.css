@@ -5,6 +5,9 @@
 body{
     
 }
+
+/* Hero section style start */
+
 .home-page{
     /* background-color: black; */
     background: url(/imgs/Group\ 1.jpg)no-repeat center center/cover;
@@ -90,3 +93,11 @@ body{
    
 }
 
+/* Hero section style end */
+
+.appiontment{
+    justify-content: center;
+    transform: translate(10px, -100px);}
+.call_form{
+border: 1px solid #000;
+}
