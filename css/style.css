@@ -115,57 +115,6 @@ body {
 /* Hero section style end */
 
 
-/* form style section start  */
-
-.section_about {
-    background: linear-gradient(176.39deg, #1E1E1E 6.22%, #222728 35.48%, #252F31 99.85%);
-
-}
-
-.appiontment {
-    justify-content: center;
-    transform: translate(10px, -155px);
-}
-
-
-.call_form .form_content {
-    border: 1px solid #fff;
-    border-radius: 2px;
-    background-color: transparent;
-    padding: 2px 5px;
-    color: #fff;
-    padding: 30px 35px;
-}
-
-.call_form input {
-    border: 1px solid #fff;
-    border-radius: 2px;
-    background-color: transparent;
-    padding: 5px 65px 5px 5px;
-    color: #fff;
-    margin: 3% 5px;
-    font-size: 14px;
-}
-
-.call_form button {
-    border: 1px solid #A41928;
-    border-radius: 3px;
-    padding: 7px 40px;
-    margin: 0 0 2px 5px;
-    background-color: #fff;
-    color: #000;
-    font-size: 14px;
-}
-
-.call_form button:hover {
-    border: 1px solid #fff;
-    background-color: #A41928;
-    padding: 7px 40px;
-    color: #fff;
-    font-size: 14px;
-}
-/* form style section end  */
-
 /* about style section start  */
 .about_us {
     background: linear-gradient(176.39deg, #1E1E1E 6.22%, #222728 35.48%, #252F31 99.85%);
@@ -173,9 +122,8 @@ body {
 
 .appiontment {
     justify-content: center;
-    transform: translate(10px, -155px);
+    /* transform: translate(10px, -5px); */
 }
-
 
 .call_form .form_content {
     border: 1px solid #fff;
@@ -217,10 +165,10 @@ body {
 
 /* about style section start  */
 .about_content{
-    margin-left: 5%;
+    margin: 25% 0 10% 5%;
 }
 .about_content_2{
-    margin-left: -5%;
+    margin: 25% 0 0 -5%;
 }
 
 .about_content h1 {
@@ -264,3 +212,53 @@ body {
 }
 
 /* about style section end  */
+
+/* Cards Section style Start */
+
+.services{
+    background: linear-gradient(176.39deg, #1E1E1E 6.22%, #222728 35.48%, #252F31 99.85%);
+}
+
+
+.services_content h1{
+    font-family: "Inter","Poppins";
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+}
+.services_content span{
+    color: #A41928;
+}
+.services_content p{
+    font-family: "Inter","Poppins";
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.card{
+    margin: 10% 0;
+}
+.card-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+}
+
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+.card-body .btn{
+    color: rgba(164, 25, 40, 1);
+    
+}
+
+
+
+/* Cards Section style End */
