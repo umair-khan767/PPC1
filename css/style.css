@@ -163,6 +163,11 @@ body {
 }
 .about_content_2{
     margin: 25% 0 0 -5%;
+    
+}
+.about_content_2 img{
+    height: auto;
+    width: 80%;
 }
 
 .about_content h1 {
@@ -207,13 +212,32 @@ body {
 
 /* about style section end  */
 
+/* After & Before Section styling Start  */
+.testimonial_section{
+    background: linear-gradient(176.39deg, #1E1E1E 6.22%, #222728 35.48%, #252F31 99.85%);
+}
+.before_after_content h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.before_after_content span{
+    color: #A41928;
+}
+.before_after_content p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/* After & Before Section styling End  */
+
+
 /* Cards Section style Start */
 
 .services{
     background: linear-gradient(176.39deg, #1E1E1E 6.22%, #222728 35.48%, #252F31 99.85%);
 }
-
-
 .services_content h1{
     font-family: "Inter","Poppins";
     font-size: 55px;
